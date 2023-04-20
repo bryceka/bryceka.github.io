@@ -2916,13 +2916,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 2em 0 0 0;
+				padding: 0.5em 0 0 0;
 			}
 
 				#header h1 {
-					padding: 0 0 1.75em 0;
+					padding: 0 0 0.5em 0;
 				}
-
+		
 		/* Banner */
 
 			#banner {
@@ -3412,5 +3412,13 @@ input, select, textarea {
 				padding: 2em 20px;
 				text-align: left;
 			}
-
+		
+		/* My fix For Frank Bio mobile */
+		#frankBanner, #frankPFP, #aboutHeading {
+			flex-direction: column;
+			align-items: center;
+		} 
+		#aboutHeading{
+			order: -1;
+		}
 	}
