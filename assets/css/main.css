@@ -119,6 +119,9 @@ input, select, textarea {
 .blue-icon{
 	filter: invert(75%) sepia(39%) saturate(3173%) hue-rotate(161deg) brightness(92%) contrast(86%)
 }
+#expertiseList{
+	list-style: none;
+}
 
 /* Basic */
 
